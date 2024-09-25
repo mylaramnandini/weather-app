@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Designer.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%; /* Adjust the width as needed */
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+}
+
+.inputs input[type="text"] {
+    padding: 10px;
+    width: 60%; /* Adjust the width as needed */
+    max-width: 300px; /* Limit the maximum width */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin bottom for better spacing */
+}
+
+/* .inputs input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+} */
+
+#add {
+    background-color: #007bff;
+    margin-bottom: 10px; /* Green background */
+    color: white;              /* White text */
+    padding: 10px 20px;       /* Top and bottom, left and right padding */
+    border: none;             /* No border */
+    border-radius: 5px;      /* Rounded corners */
+    font-size: 16px;          /* Text size */
+    cursor: pointer;          /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#add:hover {
+    background-color: #0e130f; /* Darker green on hover */
+}
+
+#add:active {
+    background-color: #36e63c; /* Even darker on click */
+    transform: translateY(1px); /* Slightly move down on click */
+}
+
+/* .inputs input[type="submit"]:hover {
+    background-color: #0056b3;
+} */
+
+.display {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
